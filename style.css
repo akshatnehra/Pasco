@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:wght@300&family=Poppins:wght@100;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 header,
@@ -21,21 +22,35 @@ nav,
   align-items: center;
 }
 
-header {
+.test{
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  width: 40px;
+  background-color: red;
+}
+
+.header-container{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   background-color: #191919;
   color: #8c8c8c;
-  padding: 0.5rem 17%;
-  padding-top: 0.7rem;
+  padding: 0rem 17%;
+  width: 100vw;
+  height: 40px;
+}
+
+header {
   justify-content: space-between;
   align-items: center;
-  width: 100vw;
+  max-width: 1170px;
 }
 
 .sign-in h5 {
   margin-left: 0.25rem;
   margin-right: 0.5rem;
   font-weight: 300;
-  font-size: 0.75rem;
+  font-size: 0.65rem;
 }
 
 .lang-eng #lang {
@@ -46,7 +61,7 @@ header {
 .lang-eng h5 {
   margin-right: 0.25rem;
   font-weight: 300;
-  font-size: 0.75rem;
+  font-size: 0.65rem;
 }
 
 .lang-eng #down-arrow {
@@ -78,7 +93,7 @@ header {
 #bg {
   position: absolute;
   z-index: -1;
-  max-width: 100vw;
+  min-width: 100vw;
   opacity: 90%;
   filter: brightness(24%);
 }
@@ -134,7 +149,7 @@ nav {
   margin-top: 5rem;
   font-size: 1.15rem;
   font-weight: 500;
-  color: #969696;
+  color: #a8a8a8;
 }
 
 .main-content h2 {
@@ -148,7 +163,7 @@ nav {
   background-color: #303f9f;
   border-style: none;
   padding: 0.6rem 1.45rem;
-  font-size: 1rem;
+  font-size: 0.85rem;
   color: #ffffff;
   border-radius: 1.25rem;
   margin-top: 1.75rem;
